@@ -4,5 +4,4 @@ def RHS(a,b):
     return a**2+2*a*b+b**2
 l=LHS(2,3)
 r=RHS(2,3)
-print("LHS is eqaul to {}".format(l))
-print("RHS is equal to {}".format(r))
+print("LHS is eqaul to {} and RHS is equal to {}".format(l,r))
